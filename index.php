@@ -7,6 +7,7 @@ if(isset($_POST['submit'])){
   $address=$_POST['address'];
   $gender=$_POST['gender'];
   
+  
   $sql="INSERT INTO `tbl_student` (`firstname`,`lastname`,`email`,`gender`,`address`)VALUES('$first_name','$last_name','$email','$gender','$address')";
   $result=mysqli_query($conn,$sql);
   if($result==TRUE)
