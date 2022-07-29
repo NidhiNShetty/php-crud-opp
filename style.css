@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ background-color: #c5aed5  !important;
+  
+}
+form{
+    background-color:#e3dbdb ;
+    padding: 3rem;
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+}
+
+button{
+    padding: .5rem;
+    border: none !important;
+    background: linear-gradient(#9455cf,#e7634c);
+}
+   
+
+button:hover{
+    transform: translateY(-2px);
+    transition: .3s ease-in-out;
+    background: linear-gradient(#552681,#e80b0b);
+    
+}
